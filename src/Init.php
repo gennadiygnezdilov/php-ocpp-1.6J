@@ -1,5 +1,7 @@
 <?
-//Forgive me my friend, but I can't make part of this file publicly available. This is a part of my life on which I spent a lot of time. If you want to get the source file or my advice, write to me in direct https://www.instagram.com/gennadiy.gnezdilov/
+//Forgive me my friend, but I can't make part of this file publicly available. 
+//This is a part of my life on which I spent a lot of time. 
+//If you want to get the source file or my advice, write to me in direct https://www.instagram.com/gennadiy.gnezdilov/
 
 namespace MyApp;
 
