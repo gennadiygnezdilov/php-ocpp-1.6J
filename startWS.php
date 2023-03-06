@@ -35,7 +35,6 @@ $server->loop->addPeriodicTimer(5, function () use ($socket)
 });
 //When the WebSocket Server connection is active, start a timer to check and send commands to the stations
 
-
 //Start WebSocket Server
 $server->run();
 //Start WebSocket Server
