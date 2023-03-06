@@ -30,7 +30,6 @@ $ioServer = new IoServer($httpServer, $secureServer, $loop);
 //When the wss connection is active, start a timer to check and send commands to the station
 $ioServer->loop->addPeriodicTimer(5, function () use ($socket)
 {
-  $cnt = 0;
   foreach($socket->clients as $client)
   {
     $init = new Init();
@@ -47,7 +46,6 @@ $ioServer->loop->addPeriodicTimer(5, function () use ($socket)
           $init->up_command($send['text'], $socket->ReturnidTag($client));
         }
     }
-    $cnt ++;
   }
 });
 //When the wss connection is active, start a timer to check and send commands to the station
