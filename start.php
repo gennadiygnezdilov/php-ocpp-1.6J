@@ -1,7 +1,4 @@
 <?
-//php /var/www/www-root/data/www/examples.com/start.php start
-//php /var/www/www-root/data/www/examples.com/start.php stop
-//php /var/www/www-root/data/www/examples.com/start.php status
 
 use Ratchet\Server\IoServer;
 use Ratchet\Http\HttpServer;
@@ -20,7 +17,6 @@ $server = IoServer::factory(new HttpServer(new WsServer($socket)), 2346);
 //When the WebSocket Server connection is active, start a timer to check and send commands to the stations
 $server->loop->addPeriodicTimer(5, function () use ($socket)
 {
-  $cnt = 0;
   foreach($socket->clients as $client)
   {
     $init = new Init();
@@ -35,7 +31,6 @@ $server->loop->addPeriodicTimer(5, function () use ($socket)
           $init->up_command($send['text'], $socket->ReturnidTag($client)); //Writing a log to the SQL database
         }
     }
-    $cnt ++;
   }
 });
 //When the WebSocket Server connection is active, start a timer to check and send commands to the stations
