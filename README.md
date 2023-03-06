@@ -20,7 +20,7 @@ public function handshake(RequestInterface $request)
 3. Use my files that I uploaded to the repository
 ```
 /start.php is responsible for starting the WS server
-/src/Desc.php main methods for WS server operation
+/src/Desc.php main methods for WS/WSS server operation
 /src/Init.php Basic methods for running OCPP 1.6J
 /src/config/define.php connection to Mysql database
 /src/MySQL.php file for database operation
