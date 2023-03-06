@@ -1,4 +1,5 @@
 <?
+//Ratchet Chat WSS server
 use ChessServer\Socket;
 use Ratchet\Http\HttpServer;
 use Ratchet\Server\IoServer;
