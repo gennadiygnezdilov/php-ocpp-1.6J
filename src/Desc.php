@@ -4,9 +4,10 @@ namespace MyApp;
 use Ratchet\MessageComponentInterface;
 use Ratchet\ConnectionInterface;
 use Ratchet\WebSocket\WsServerInterface;
+
 use MyApp\Init;
 
-class Desc implements MessageComponentInterface
+class Desc implements MessageComponentInterface, WsServerInterface
 {
     public $clients;
     public $init;
@@ -154,5 +155,12 @@ class Desc implements MessageComponentInterface
       return $record;
     }
     //We write logs
+
+    //setting the subprotocol
+    public function getSubProtocols()
+    {
+      return ['ocpp1.6'];
+    }
+    //setting the subprotocol
 
 }
