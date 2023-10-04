@@ -29,6 +29,6 @@ public function handshake(RequestInterface $request)
 4.	To start and further keep the WS/WSS server in operation, be sure to use Supervisor (http://supervisord.org) or, as an alternative, I recommend using the php script https://github.com/Firehed/ProcessManager
 
 
-My code was written in 2019 and is still functioning, I own my own electric car charging project. I will add that the code is not written beautifully, but it works, support me and the project will develop.
+My code was written in 2020 and is still functioning, I own my own electric car charging project. 
 
 If you have any questions, write to me, I will try to help with the implementation https://www.instagram.com/gennadiy.gnezdilov/
