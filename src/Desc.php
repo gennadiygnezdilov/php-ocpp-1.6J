@@ -126,6 +126,7 @@ class Desc implements MessageComponentInterface
     public function onClose(ConnectionInterface $conn)
     {
         $this->clients->detach($conn);
+        $conn->close();
         echo $this->SetLogTxt("Connection closed ".$this->ReturnidTag($conn)."\r\n\r\n");
     }
 
