@@ -5,6 +5,7 @@ namespace Firehed\ProcessControl;
 abstract class ProcessManager {
 
 	use \Psr\Log\LoggerAwareTrait;
+		$test;
 
 	private $managerPid;
 	private $workerProcesses = []; // pid => type
