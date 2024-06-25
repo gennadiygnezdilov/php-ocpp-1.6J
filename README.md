@@ -26,8 +26,6 @@ public function handshake(RequestInterface $request)
 /src/MySQL.php file for database operation
 ```
    
-4.	To start and further keep the WS/WSS server in operation, be sure to use Supervisor (http://supervisord.org) or, as an alternative, I recommend using the php script https://github.com/Firehed/ProcessManager
-
 
 My code was written in 2020 and is still functioning, I own my own electric car charging project. 
 
