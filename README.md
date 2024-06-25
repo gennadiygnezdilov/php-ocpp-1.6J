@@ -25,7 +25,6 @@ public function handshake(RequestInterface $request)
 /src/config/define.php connection to Mysql database
 /src/MySQL.php file for database operation
 ```
-   
 
 My code was written in 2020 and is still functioning, I own my own electric car charging project. 
 
