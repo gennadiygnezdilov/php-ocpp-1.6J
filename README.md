@@ -30,4 +30,6 @@ public function handshake(RequestInterface $request)
 /src/config/define.php connecting to the Mysql database
 /src/MySQL.php file for running the database
 ```
-My code has been successfully managing hundreds of charging stations around the world on a commercial basis since 2020 (Turkey, India, Norway, Kazakhstan, Brazil, South Africa, Russia). If you have questions or need help with the implementation of the OCPP server, write to me on Instagram: [Gennadiy Gnezdilov](https://www.instagram.com/gennadiy.gnezdilov/). I am always ready to help with the implementation. It is also possible to use this extension for Laravel.
+My PHP code for the OCPP server has been successfully managing hundreds of charging stations around the world on a commercial basis since 2020 (Turkey, India, Norway, Kazakhstan, Brazil, South Africa, Russia). The PHP script successfully works with charging stations from Schneider, ABB, Siemens, Wallbox, Teltonika, Grasen, Beny and many others.
+Using PHP can significantly reduce your time for product integration and maintenance.
+If you have questions or need help with the implementation of the OCPP server, write to me on Instagram: [Gennadiy Gnezdilov](https://www.instagram.com/gennadiy.gnezdilov/). I am always ready to help. And it is also possible to use this extension for Laravel.
